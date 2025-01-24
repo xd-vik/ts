@@ -6,7 +6,7 @@
 
 // Har class ka ek constructor hota hai (agar aap define nahi karte, toh TypeScript ek default constructor use karta hai).
 
-class User {
+class Users {
   name: string;
   email: string;
   age?: number;

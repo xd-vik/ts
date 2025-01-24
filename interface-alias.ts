@@ -25,7 +25,11 @@ function abc(obj: Admin) {
   console.log(obj);
 }
 
-abc({ name: "vivek", email: "viks@vik.com", isAdmin: true });
+abc({
+  name: "vivek",
+  email: "viks@vik.com",
+  isAdmin: true,
+});
 
 // if multiple interfaces with same then they merged in all one
 
@@ -45,7 +49,7 @@ let anum: mul = true;
 
 // intersection "and" "&"
 
-type Users = {
+type Userss = {
   name: string;
   email: string;
 };
